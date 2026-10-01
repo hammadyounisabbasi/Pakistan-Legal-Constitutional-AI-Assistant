@@ -1,0 +1,2 @@
+"""Pakistan Legal Assistant application."""
+

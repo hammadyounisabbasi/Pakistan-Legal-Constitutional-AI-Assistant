@@ -1,0 +1,65 @@
+[
+  {
+    "id": "na-constitution-1973",
+    "title": "Constitution of the Islamic Republic of Pakistan, 1973",
+    "source_name": "National Assembly of Pakistan",
+    "source_url": "https://www.na.gov.pk/uploads/documents/1495426115_559.pdf",
+    "document_type": "historical_constitution_version",
+    "issuing_authority": "National Assembly of Pakistan",
+    "version": "Modified up to 31 March 2017",
+    "effective_status": "historical; not a current operative consolidation",
+    "enabled": false,
+    "notes": "Retained for traceability but disabled because the official PDF states that it is modified only up to 31 March 2017."
+  },
+  {
+    "id": "pakistan-code-landing",
+    "title": "Pakistan Code — Federal Legislation Portal",
+    "source_name": "Ministry of Law and Justice, Government of Pakistan",
+    "source_url": "https://pakistancode.gov.pk/english/",
+    "document_type": "legislation_portal",
+    "issuing_authority": "Ministry of Law and Justice",
+    "effective_status": "Official portal; individual instruments require status verification",
+    "enabled": true
+  },
+  {
+    "id": "pakistan-code-ppc-1860",
+    "title": "Pakistan Penal Code, 1860",
+    "source_name": "Pakistan Code — Ministry of Law and Justice",
+    "source_url": "https://pakistancode.gov.pk/pdffiles/administratord5622ea3f15bfa00b17d2cf7770a8434.pdf",
+    "document_type": "federal_statute",
+    "issuing_authority": "Ministry of Law and Justice",
+    "effective_status": "Pakistan Code copy is marked under review; verify against relevant Gazette where necessary",
+    "enabled": true
+  },
+  {
+    "id": "pakistan-code-constitution-26th-amendment",
+    "title": "Constitution of the Islamic Republic of Pakistan, 1973",
+    "source_name": "Pakistan Code — Ministry of Law and Justice",
+    "source_url": "https://pakistancode.gov.pk/pdffiles/administrator9d8e2ecc414c6d3371ac41114b61a2c4.pdf",
+    "document_type": "constitution",
+    "issuing_authority": "Government of Pakistan, Ministry of Law and Justice",
+    "version": "As amended up to the Twenty-sixth Amendment (2024 consolidation)",
+    "effective_status": "Official consolidation through the Twenty-sixth Amendment; check for later amendments",
+    "enabled": true
+  },
+  {
+    "id": "pakistan-code-crpc-1898",
+    "title": "Code of Criminal Procedure, 1898",
+    "source_name": "Pakistan Code — Ministry of Law and Justice",
+    "source_url": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf",
+    "document_type": "federal_statute",
+    "issuing_authority": "Ministry of Law and Justice",
+    "effective_status": "Pakistan Code copy is marked under review; verify against relevant Gazette where necessary",
+    "enabled": true
+  },
+  {
+    "id": "supreme-court-judgments",
+    "title": "Supreme Court of Pakistan — Judgments",
+    "source_name": "Supreme Court of Pakistan",
+    "source_url": "https://www.supremecourt.gov.pk/judgements/",
+    "document_type": "judgment_index",
+    "issuing_authority": "Supreme Court of Pakistan",
+    "enabled": false,
+    "notes": "Discovery connector placeholder; enable only after confirming site access policy and pagination behavior."
+  }
+]

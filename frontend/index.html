@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5f2eb">
+  <meta name="description" content="An AI assistant that makes Pakistan's Constitution, laws and legal rights easier to understand.">
+  <title>Pakistan Legal Assistant</title>
+  <link rel="stylesheet" href="../frontend/assets/styles.css">
+  <script defer src="../frontend/assets/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header" aria-label="Site header">
+    <a class="brand" href="/" aria-label="Pakistan Legal Assistant home">
+      <span class="brand-mark" aria-hidden="true"><img src="../frontend/assets/img.png" alt=""></span>
+      <span>Pakistan Legal Assistant</span>
+    </a>
+    <span class="official-note"><i></i> Official-source focused</span>
+  </header>
+
+  <main id="main">
+    <article class="project-card">
+      <section class="hero-section" aria-labelledby="page-title">
+        <div class="eyebrow">Constitution &middot; legislation &middot; courts &middot; rights</div>
+        <h1 id="page-title">Pakistani law,<br><em>made clearer.</em></h1>
+        <p class="intro">A focused legal-information assistant that helps citizens, students and researchers understand Pakistan's constitutional and legal framework in clear, everyday language.</p>
+        <div class="hero-actions">
+          <button type="button" class="primary-action" data-open-assistant>Ask the legal assistant</button>
+          <a href="#about-project" class="secondary-action">Explore the project</a>
+        </div>
+      </section>
+
+      <section class="feature-row" aria-label="Core features">
+        <div>
+          <span class="feature-number">01</span>
+          <h2>Grounded when possible</h2>
+          <p>Relevant answers are retrieved from indexed official Pakistani legal material and include traceable citations.</p>
+        </div>
+        <div>
+          <span class="feature-number">02</span>
+          <h2>Built for real questions</h2>
+          <p>Ask naturally in English, Urdu or Roman Urdu - from a specific Article to an everyday legal situation.</p>
+        </div>
+        <div>
+          <span class="feature-number">03</span>
+          <h2>Helpful beyond the index</h2>
+          <p>When no matching local passage exists, the AI can still provide cautious general guidance, clearly marked as unverified.</p>
+        </div>
+      </section>
+
+      <section id="about-project" class="content-section about-grid" aria-labelledby="about-title">
+        <div>
+          <span class="section-kicker">About the project</span>
+          <h2 id="about-title">Why this assistant was created</h2>
+        </div>
+        <div class="section-copy">
+          <p>Pakistan's laws and constitutional rights are important, but legal language can be difficult to search and understand. Citizens often need a simple starting point before they know which law, institution or professional to approach.</p>
+          <p>This project was created to reduce that information gap. It combines artificial intelligence with retrieval from official legal documents so that complex material can be explained in professional, accessible language without requiring the user to know formal legal terminology.</p>
+        </div>
+      </section>
+
+      <section class="content-section purpose-section" aria-labelledby="purpose-title">
+        <div class="purpose-heading">
+          <span class="section-kicker">Purpose and impact</span>
+          <h2 id="purpose-title">What problem does it solve?</h2>
+          <p>The assistant is designed as an educational first step - not a replacement for a lawyer.</p>
+        </div>
+        <div class="purpose-cards">
+          <article>
+            <span>01</span>
+            <h3>Plain-language understanding</h3>
+            <p>Turns difficult legal and constitutional wording into clear explanations for ordinary users.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Natural conversation</h3>
+            <p>Understands questions written naturally in English, Urdu and Roman Urdu.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Faster legal orientation</h3>
+            <p>Helps users identify relevant rights, possible next steps and questions to discuss with a qualified lawyer.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Responsible AI guidance</h3>
+            <p>Separates source-grounded answers from general AI knowledge and avoids presenting unverified claims as confirmed law.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section developer-section" aria-labelledby="developer-title">
+        <div class="developer-portrait" aria-hidden="true"><img src="../frontend/assets/img.png" alt=""></div>
+        <div>
+          <span class="section-kicker">Developer</span>
+          <h2 id="developer-title">Hammad Younis Abbasi</h2>
+          <p>This project is developed by <strong>Hammad Younis Abbasi</strong>, a Computer Science student and aspiring AI Engineer with a strong interest in Artificial Intelligence, Machine Learning, LLMs, RAG and Agentic AI systems.</p>
+          <p>He focuses on building practical AI-powered solutions that address real-world problems and make technology more accessible to people. This Pakistan Legal &amp; Constitutional AI Assistant reflects his vision of using AI to help ordinary citizens better understand their basic rights, laws and constitutional information.</p>
+          <div class="interest-list" aria-label="Areas of interest">
+            <span>Artificial Intelligence</span><span>Machine Learning</span><span>LLMs</span><span>RAG</span><span>Agentic AI</span>
+          </div>
+        </div>
+      </section>
+
+      <footer class="card-footer">
+        <div><span>Created by</span><strong>Hammad Younis Abbasi</strong></div>
+        <p>Educational legal information - not legal advice. Important matters should be checked against official text and discussed with a qualified Pakistani lawyer.</p>
+      </footer>
+    </article>
+  </main>
+
+  <button id="launcher" class="chat-launcher" type="button" aria-label="Ask the legal assistant" aria-haspopup="dialog" aria-controls="assistant" aria-expanded="false">
+    <span class="launcher-icon" aria-hidden="true"><img src="../frontend/assets/img.png" alt=""></span>
+    <span class="launcher-label"><b>Ask the legal assistant</b><small>English, Urdu or Roman Urdu</small></span>
+  </button>
+
+  <section id="assistant" class="assistant" role="dialog" aria-modal="true" aria-labelledby="assistant-title" aria-hidden="true">
+    <header class="assistant-header">
+      <div class="assistant-identity">
+        <span class="assistant-seal" aria-hidden="true"><img src="../frontend/assets/img.png" alt=""></span>
+        <div><h2 id="assistant-title">Legal AI Assistant</h2><p><i></i> Pakistan law scope</p></div>
+      </div>
+      <button id="close-chat" class="icon-button" type="button" aria-label="Close legal assistant">&times;</button>
+    </header>
+
+    <div id="messages" class="messages" role="log" aria-live="polite" aria-relevant="additions">
+      <div class="message assistant-message">
+        <span class="message-label">Assistant</span>
+        <div class="message-body"><p>Assalam-o-Alaikum. Ask me about Pakistan's Constitution, laws, legal rights or courts. You can write in English, Urdu or Roman Urdu.</p></div>
+        <div class="suggestions" aria-label="Suggested questions">
+          <button type="button">What does Article 25 mean?</button>
+          <button type="button">Arrest ke baad mere rights kya hain?</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="status" class="status" aria-live="polite"></div>
+    <form id="chat-form" class="composer">
+      <label class="sr-only" for="message-input">Ask a question about Pakistani law</label>
+      <textarea id="message-input" rows="1" maxlength="4000" placeholder="Ask about Pakistani law..." required></textarea>
+      <button id="send-button" type="submit" aria-label="Send message">
+        <span>Send</span><span aria-hidden="true">&uarr;</span>
+      </button>
+      <p>Enter to send &middot; Shift + Enter for a new line</p>
+    </form>
+  </section>
+</body>
+</html>
